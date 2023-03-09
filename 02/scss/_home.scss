@@ -1,0 +1,97 @@
+@font-face {
+     font-family: 'Montserrat';
+     src: url(../assetis/font/Montserrat-Medium.ttf);
+   }
+body{
+     font-family: "Montserrat";
+     color: #181818;
+     header{
+          .anuncio{
+               background: #181818;
+               padding: 2rem 0;
+               font-size: 16px;
+               line-height: 20px;
+               color: #F9F9F9;
+               text-align: center;
+          }
+          title{
+               padding: 1.5rem;
+               font-size: 24px;
+               line-height: 29px;
+               text-align: center;
+               display: block;
+          }
+          .baner{
+               width: 100%;
+               background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url("../assetis/image/wallpaper.jpeg") no-repeat center;
+               background-size: cover;
+                background-attachment: fixed;
+               .titulo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 2.6rem;
+                    padding: 11.3rem 2rem;
+                    margin: 0 auto;
+                    h1{
+                         width: fit-content;
+                         font-size: 48px;
+                         line-height: 59px;
+                         color: #F9F9F9;
+                    }
+                    p{
+                         width: fit-content;
+                         width: 100%;
+                         font-size: 24px;
+                         color: #F9F9F9;
+                    }
+               }
+          }
+     }
+
+     main{
+          margin-bottom: 10rem;
+          .destaque{
+               padding: 7rem 0;
+               display: grid;
+               gap: 1.7rem;
+               text-align: center;
+               h2{
+                    font-size: 32px;
+                    line-height: 39px;
+               }
+               p{
+                    font-size: 20px;
+                    line-height: 24px;
+               }
+          }
+     }
+     footer{
+          background: #181818;
+          p{
+               font-size: 18px;
+               line-height: 22px;
+               color: #F9F9F9;
+               padding: 1.8rem 0;
+               text-align: center;
+          }
+     }
+}
+
+@media (max-width: 720px) {
+     .baner{
+          .titulo{
+               h1{
+                    font-size: 24px;
+                    line-height: 59px;
+               }
+               p{
+                    width: 100%;
+                    font-size: 16px;
+               }
+          }
+     }
+     .produtos{
+          padding: 0 2rem;
+     }
+}
