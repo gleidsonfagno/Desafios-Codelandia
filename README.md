@@ -2,7 +2,7 @@
 
 <div>
      <h2>Desafio 02 : projeto JordanShoes</h2>
-     <img src="./resultado.png" alt="">
+     <img src="./resultados/resultado.png" alt="">
      <h3>background-attachment: fixed; para fazer um efeito paralax na imagem
      </h3>
      <h3>
